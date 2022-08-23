@@ -30,6 +30,6 @@ public class ExceptionDemo {
         }
         System.out.println("from main method");
 
-        
+
     }
 }
