@@ -7,8 +7,9 @@ public class CastingDemo {
         CastingDemo castingDemo = (CastingDemo) o;
         castingDemo.display();
         String name = "Ramesh";
-        castingDemo = (CastingDemo) ((Object)name);
+        //castingDemo = (CastingDemo) ((Object)name);
         System.out.println(o);
+        System.out.println(0/0);
     }
     public void display(){
         System.out.println("demo");
